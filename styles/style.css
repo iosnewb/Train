@@ -2,6 +2,7 @@
 	background-color: gray;
 	color: white;
 	text-align: center;
+	font-family: sans-serif;
 }
 
 .jumbotron p {
@@ -9,7 +10,7 @@
 }
 
 .panel .panel-heading {
-	background-color: gray;
-	color: white;
+	background-color: lightgray;
+	color: black;
 }
 
