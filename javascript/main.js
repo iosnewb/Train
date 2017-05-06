@@ -42,8 +42,6 @@ $("#submit-Btn").on("click", function(event){
 });
 
 database.ref("/trains").on("child_added", function(childSnapshot) {
-
-
     currTime = moment();
     var firstTimeConverted = moment(childSnapshot.val().trainTime, "hh:mm").subtract(1, "years");
     console.log("Current time: " +moment(currTime).format("hh:mm"));
